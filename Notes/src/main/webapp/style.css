@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+.Wholebox{
+	height: 99.5vh;
+	width: 100%;
+    position: relative;
+}
+textarea#title {
+    height: 10%;
+    padding: 2%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 25px;
+}
+.header{
+	height: 10vh;
+	width: 100%;
+}
+.notesarea{
+	height: 89.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#creater{
+    height: 31vh;
+    width: 10%;
+    margin: 3%;
+    border-radius: 2rem;
+    font-size: 20vh;
+    background-color: white;
+}
+.creater-us{
+	height: 31vh;
+    width: 10%;
+    margin: 3% 3%;
+    border-radius: 2rem;
+    padding: 0.5%;
+    font-size: 1.5vh;
+    overflow: hidden;
+}
+.editer{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 60vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#text_area{
+    height: 80%;
+    width: 100%;
+	font-size: 3vh;
+	padding: 2%;
+
+}
+#buts{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.indiv{
+    height: 50%;
+    border: none;
+}
+#cancel_btn{
+  height:100% ;
+  width: 10vh;
+
+}
+#save_btn{
+   height: 100%;
+   width: 10vh;
+}
+#delete_btn{
+    height: 100%;
+    width: 10vh;
+}
